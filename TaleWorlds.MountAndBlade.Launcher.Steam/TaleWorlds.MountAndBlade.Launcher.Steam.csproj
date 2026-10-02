@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031D3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TaleWorlds.MountAndBlade.Launcher.Steam</RootNamespace>
+    <AssemblyName>TaleWorlds.MountAndBlade.Launcher.Steam</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SteamLauncherModuleExtension.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\netstandard\netstandard.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A8}</Project>
+      <Name>netstandard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Steamworks.NET\Steamworks.NET.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031AE}</Project>
+      <Name>Steamworks.NET</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Library\TaleWorlds.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C7}</Project>
+      <Name>TaleWorlds.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ModuleManager\TaleWorlds.ModuleManager.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CA}</Project>
+      <Name>TaleWorlds.ModuleManager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

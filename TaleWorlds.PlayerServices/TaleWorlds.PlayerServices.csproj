@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031DF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TaleWorlds</RootNamespace>
+    <AssemblyName>TaleWorlds.PlayerServices</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="Avatar\PlayerServices\AvatarServices.cs" />
+    <Compile Include="PlayerServices\Avatar\ApiAvatarServiceBase.cs" />
+    <Compile Include="PlayerServices\Avatar\ApiAvatarServiceBaseSingleThread.cs" />
+    <Compile Include="PlayerServices\Avatar\AvatarData.cs" />
+    <Compile Include="PlayerServices\Avatar\AvatarDataResponse.cs" />
+    <Compile Include="PlayerServices\Avatar\ForcedAvatarService.cs" />
+    <Compile Include="PlayerServices\Avatar\GOGAvatarService.cs" />
+    <Compile Include="PlayerServices\Avatar\IAvatarService.cs" />
+    <Compile Include="PlayerServices\Avatar\SteamAvatarService.cs" />
+    <Compile Include="PlayerServices\Avatar\TestAvatarService.cs" />
+    <Compile Include="PlayerServices\PlayerId.cs" />
+    <Compile Include="PlayerServices\PlayerIdExtensions.cs" />
+    <Compile Include="PlayerServices\PlayerIdJsonConverter.cs" />
+    <Compile Include="PlayerServices\PlayerIdProvidedTypes.cs" />
+    <Compile Include="PlayerServices\TimeoutWebClient.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\netstandard\netstandard.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A8}</Project>
+      <Name>netstandard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Newtonsoft.Json\Newtonsoft.Json.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031AC}</Project>
+      <Name>Newtonsoft.Json</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Library\TaleWorlds.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C7}</Project>
+      <Name>TaleWorlds.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

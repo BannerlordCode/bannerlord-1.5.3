@@ -1,0 +1,45 @@
+# Binaries - never commit compiled/game assemblies
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.so
+*.dylib
+*.a
+*.lib
+*.obj
+*.ilk
+*.exp
+*.nupkg
+*.snk
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Bb]uild/
+[Bb]ld/
+[Ll]og/
+[Ll]ogs/
+x64/
+x86/
+ARM/
+ARM64/
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.sln.docstates
+
+# OS / tooling
+.DS_Store
+Thumbs.db
+.workbuddy/
+*.tmp
+*.swp

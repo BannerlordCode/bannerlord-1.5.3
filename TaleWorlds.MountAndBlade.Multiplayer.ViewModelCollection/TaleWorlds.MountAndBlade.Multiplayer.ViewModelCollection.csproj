@@ -1,0 +1,265 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031EF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TaleWorlds.MountAndBlade.Multiplayer.ViewModelCollection</RootNamespace>
+    <AssemblyName>TaleWorlds.MountAndBlade.Multiplayer.ViewModelCollection</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="Microsoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IsReadOnlyAttribute.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\MultiplayerCultureExtensions.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\AdminPanel\MultiplayerAdminPanelActionOptionVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\AdminPanel\MultiplayerAdminPanelMultiSelectionOptionVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\AdminPanel\MultiplayerAdminPanelNumericOptionVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\AdminPanel\MultiplayerAdminPanelOptionBaseVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\AdminPanel\MultiplayerAdminPanelOptionGroupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\AdminPanel\MultiplayerAdminPanelStringOptionVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\AdminPanel\MultiplayerAdminPanelToggleOptionVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\AdminPanel\MultiplayerAdminPanelVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\ClassLoadout\AlternativeUsageItemOptionVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\ClassLoadout\HeroClassGroupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\ClassLoadout\HeroClassVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\ClassLoadout\HeroInformationVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\ClassLoadout\HeroPerkVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\ClassLoadout\MPPerkVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\ClassLoadout\MPTeammateCompassTargetVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\ClassLoadout\MultiplayerClassLoadoutVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\ClassLoadout\ShallowItemPropertyVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\ClassLoadout\ShallowItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\EndOfRound\MultiplayerEndOfRoundSideVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\EndOfRound\MultiplayerEndOfRoundVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\FactionBanVote\MultiplayerFactionBanVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\FactionBanVote\MultiplayerFactionBanVoteVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\FlagMarker\MultiplayerMissionMarkerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\FlagMarker\Targets\MissionAlwaysVisibleMarkerTargetVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\FlagMarker\Targets\MissionFlagMarkerTargetVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\FlagMarker\Targets\MissionMarkerTargetVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\FlagMarker\Targets\MissionMarkerType.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\FlagMarker\Targets\MissionPeerMarkerTargetVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\FlagMarker\Targets\MissionSiegeEngineMarkerTargetVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\HUDExtensions\CapturePointVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\HUDExtensions\CommanderInfoVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\HUDExtensions\DuelMatchVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\HUDExtensions\MissionMultiplayerHUDExtensionVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\HUDExtensions\MissionMultiplayerSpectatorHUDVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\HUDExtensions\MPOverlayPlayerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\HUDExtensions\MPOverlaySideVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\HUDExtensions\MPOverlayStatVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\HUDExtensions\SpectatorWeaponSlotVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Intermission\MPIntermissionCultureItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Intermission\MPIntermissionMapItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Intermission\MPIntermissionVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\KillFeed\General\MPGeneralKillNotificationItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\KillFeed\General\MPGeneralKillNotificationVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\KillFeed\MPDuelKillNotificationItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\KillFeed\MPKillFeedVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\KillFeed\Personal\MPPersonalKillNotificationItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\KillFeed\Personal\MPPersonalKillNotificationVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\AfterBattle\MPAfterBattleBadgeRewardItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\AfterBattle\MPAfterBattleLootRewardItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\AfterBattle\MPAfterBattlePopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\AfterBattle\MPAfterBattleRewardItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\CosmeticCategory\MPArmoryClothingCosmeticCategoryVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\CosmeticCategory\MPArmoryCosmeticCategoryBaseVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\CosmeticCategory\MPArmoryTauntCosmeticCategoryVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\CosmeticItem\MPArmoryCosmeticClothingItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\CosmeticItem\MPArmoryCosmeticItemBaseVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\CosmeticItem\MPArmoryCosmeticTauntItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\CosmeticItem\MPArmoryCosmeticTauntSlotVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\LobbyCosmeticExtensions.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\MPArmoryClassStatsVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\MPArmoryCosmeticsVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\MPArmoryHeroPerkSelectionVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\MPArmoryHeroPreviewVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Armory\MPArmoryVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Authentication\MPAuthenticationDebugVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Authentication\MPAuthenticationVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanAnnouncementVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanChangeFactionPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanChangeSigilPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanCreationInformationVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanCreationPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanInvitationPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanInviteFriendsPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanLeaderboardSortControllerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanLeaderboardVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanMatchmakingRequestPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanMemberItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanOverviewVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanRosterVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanSendPostPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Clan\MPLobbyClanVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\ClassFilter\MPLobbyClassFilterClassGroupItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\ClassFilter\MPLobbyClassFilterClassItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\ClassFilter\MPLobbyClassFilterFactionItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\CustomGame\MPCustomGameFilterItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\CustomGame\MPCustomGameFiltersVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\CustomGame\MPCustomGameItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\CustomGame\MPCustomGameSortControllerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\CustomGame\MPCustomGameVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Friends\MPLobbyFriendGroupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Friends\MPLobbyFriendItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Friends\MPLobbyFriendServiceVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Friends\MPLobbyFriendsVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Friends\MPLobbyPartyJoinRequestPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Friends\MPLobbyPartyPlayerSuggestionPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Friends\MPLobbyPartyPlayerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Friends\MPLobbyPlayerBaseVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Friends\MPLobbyPlayerRecentGameDataVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Friends\MPLobbyPlayerStatItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Friends\MPLobbyPlayerTroopClassVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Home\MPAnnouncementItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Home\MPAnnouncementsVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Home\MPLobbyHomeChangeSigilPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Home\MPLobbyHomeVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Home\MPNewsItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Home\MPNewsVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\HostGame\HostGameOptions\BooleanHostGameOptionDataVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\HostGame\HostGameOptions\GenericHostGameOptionDataVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\HostGame\HostGameOptions\InputHostGameOptionDataVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\HostGame\HostGameOptions\MultipleSelectionHostGameOptionDataVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\HostGame\HostGameOptions\NumericHostGameOptionDataVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\HostGame\MPHostGameOptionsVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\HostGame\MPHostGameVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\LobbyTauntHelper.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPCosmeticObtainPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPLobbyBadgeItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPLobbyBlockerStateVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPLobbyClassFilterVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPLobbyCosmeticSigilItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPLobbyGameSearchVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPLobbyGameTypeVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPLobbyMenuVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPLobbyPartyInvitationPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPLobbyPlayerProfileVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPLobbyRejoinVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPLobbySigilItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPLobbyVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\MPMatchmakingVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\OfficialGame\MPMatchmakingItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\OfficialGame\MPMatchmakingRegionSelectorItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\OfficialGame\MPMatchmakingSelectionInfoVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Popup\MPLobbyInformationPopup.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Popup\MPLobbyQueryPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyAchievementBadgeGroupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyBadgeProgressInformationVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyBadgeSelectionPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyBannerlordIDAddFriendPopupVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyBannerlordIDChangePopup.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyLeaderboardPlayerItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyProfileGameModeSelectorItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyProfileVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyRankLeaderboardVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyRankProgressInformationVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyRecentGameItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyRecentGamePlayerItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Lobby\Profile\MPLobbyRecentGamesVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MissionDuelLandmarkMarkerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MissionDuelMarkersVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MissionDuelPeerMarkerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MPCultureItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MPDeathCardVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MPEndOfBattlePlayerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MPEscapeMenuVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MPPlayerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MPPracticeVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MPVoicePlayerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MultiplayerAdminInformationVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MultiplayerDuelVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MultiplayerEndOfBattleVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MultiplayerMissionServerStatusVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MultiplayerPlayerContextMenuHelper.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MultiplayerPlayerHelper.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MultiplayerPollProgressVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MultiplayerReportPlayerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MultiplayerSpectatorHelper.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\MultiplayerVoiceChatVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Scoreboard\MissionScoreboardHeaderItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Scoreboard\MissionScoreboardMVPItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Scoreboard\MissionScoreboardPlayerSortControllerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Scoreboard\MissionScoreboardPlayerVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Scoreboard\MissionScoreboardSideVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Scoreboard\MissionScoreboardStatItemVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Scoreboard\MissionScoreboardVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Scoreboard\MPEndOfBattleSideVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\Scoreboard\MPEndOfBattleVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\TeamSelection\MultiplayerCultureSelectVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\TeamSelection\MultiplayerTeamSelectVM.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\Multiplayer\ViewModelCollection\TeamSelection\TeamSelectTeamInstanceVM.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\netstandard\netstandard.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A8}</Project>
+      <Name>netstandard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core.ViewModelCollection\TaleWorlds.Core.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B6}</Project>
+      <Name>TaleWorlds.Core.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core\TaleWorlds.Core.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B5}</Project>
+      <Name>TaleWorlds.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Engine\TaleWorlds.Engine.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031BF}</Project>
+      <Name>TaleWorlds.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.InputSystem\TaleWorlds.InputSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C6}</Project>
+      <Name>TaleWorlds.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Library\TaleWorlds.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C7}</Project>
+      <Name>TaleWorlds.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Localization\TaleWorlds.Localization.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C9}</Project>
+      <Name>TaleWorlds.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ModuleManager\TaleWorlds.ModuleManager.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CA}</Project>
+      <Name>TaleWorlds.ModuleManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.Diamond\TaleWorlds.MountAndBlade.Diamond.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CC}</Project>
+      <Name>TaleWorlds.MountAndBlade.Diamond</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.Multiplayer\TaleWorlds.MountAndBlade.Multiplayer.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031E9}</Project>
+      <Name>TaleWorlds.MountAndBlade.Multiplayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.ViewModelCollection\TaleWorlds.MountAndBlade.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031D7}</Project>
+      <Name>TaleWorlds.MountAndBlade.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade\TaleWorlds.MountAndBlade.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CD}</Project>
+      <Name>TaleWorlds.MountAndBlade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ObjectSystem\TaleWorlds.ObjectSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DA}</Project>
+      <Name>TaleWorlds.ObjectSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.PlatformService\TaleWorlds.PlatformService.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DB}</Project>
+      <Name>TaleWorlds.PlatformService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.PlayerServices\TaleWorlds.PlayerServices.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DF}</Project>
+      <Name>TaleWorlds.PlayerServices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

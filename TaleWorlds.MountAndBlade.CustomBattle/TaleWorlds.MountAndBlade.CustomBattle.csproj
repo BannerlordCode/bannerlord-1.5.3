@@ -1,0 +1,131 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031E8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TaleWorlds.MountAndBlade.CustomBattle</RootNamespace>
+    <AssemblyName>TaleWorlds.MountAndBlade.CustomBattle</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="ArmyCompositionGroupVM.cs" />
+    <Compile Include="ArmyCompositionItemVM.cs" />
+    <Compile Include="CPUBenchmarkMissionLogic.cs" />
+    <Compile Include="CPUBenchmarkMissionSpawnHandler.cs" />
+    <Compile Include="CustomBattleObjects\CustomBattleBannerEffects.cs" />
+    <Compile Include="CustomBattleSceneData.cs" />
+    <Compile Include="CustomBattleSceneNotificationContextProvider.cs" />
+    <Compile Include="CustomBattleScreen.cs" />
+    <Compile Include="CustomBattleSideVM.cs" />
+    <Compile Include="CustomBattleState.cs" />
+    <Compile Include="CustomBattleSubModule.cs" />
+    <Compile Include="CustomBattleTroopTypeVM.cs" />
+    <Compile Include="CustomBattleViews.cs" />
+    <Compile Include="CustomBattleVM.cs" />
+    <Compile Include="CustomBattle\CustomBattleCompositionData.cs" />
+    <Compile Include="CustomBattle\CustomBattleData.cs" />
+    <Compile Include="CustomBattle\CustomBattleHelper.cs" />
+    <Compile Include="CustomBattle\CustomBattlePlayerSide.cs" />
+    <Compile Include="CustomBattle\CustomBattlePlayerType.cs" />
+    <Compile Include="CustomBattle\CustomBattleProvider.cs" />
+    <Compile Include="CustomBattle\CustomBattleSiegeMachineVM.cs" />
+    <Compile Include="CustomBattle\CustomBattleTimeOfDay.cs" />
+    <Compile Include="CustomBattle\GameTypeSelectionGroupVM.cs" />
+    <Compile Include="CustomBattle\MapSelectionGroupVM.cs" />
+    <Compile Include="CustomBattle\SelectionItem\CharacterItemVM.cs" />
+    <Compile Include="CustomBattle\SelectionItem\CustomBattleFactionSelectionVM.cs" />
+    <Compile Include="CustomBattle\SelectionItem\FactionItemVM.cs" />
+    <Compile Include="CustomBattle\SelectionItem\GameTypeItemVM.cs" />
+    <Compile Include="CustomBattle\SelectionItem\MapItemVM.cs" />
+    <Compile Include="CustomBattle\SelectionItem\PlayerSideItemVM.cs" />
+    <Compile Include="CustomBattle\SelectionItem\PlayerTypeItemVM.cs" />
+    <Compile Include="CustomBattle\SelectionItem\SceneLevelItemVM.cs" />
+    <Compile Include="CustomBattle\SelectionItem\SeasonItemVM.cs" />
+    <Compile Include="CustomBattle\SelectionItem\TimeOfDayItemVM.cs" />
+    <Compile Include="CustomBattle\SelectionItem\WallHitpointItemVM.cs" />
+    <Compile Include="CustomBattle\TroopTypeSelectionPopUpVM.cs" />
+    <Compile Include="CustomGame.cs" />
+    <Compile Include="CustomGameManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectionGroup.cs" />
+    <Compile Include="Views\GauntletCustomBattleMissionCheatView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\netstandard\netstandard.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A8}</Project>
+      <Name>netstandard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core.ViewModelCollection\TaleWorlds.Core.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B6}</Project>
+      <Name>TaleWorlds.Core.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core\TaleWorlds.Core.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B5}</Project>
+      <Name>TaleWorlds.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.DotNet\TaleWorlds.DotNet.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031BD}</Project>
+      <Name>TaleWorlds.DotNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Engine.GauntletUI\TaleWorlds.Engine.GauntletUI.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C0}</Project>
+      <Name>TaleWorlds.Engine.GauntletUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Engine\TaleWorlds.Engine.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031BF}</Project>
+      <Name>TaleWorlds.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.InputSystem\TaleWorlds.InputSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C6}</Project>
+      <Name>TaleWorlds.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Library\TaleWorlds.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C7}</Project>
+      <Name>TaleWorlds.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Localization\TaleWorlds.Localization.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C9}</Project>
+      <Name>TaleWorlds.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ModuleManager\TaleWorlds.ModuleManager.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CA}</Project>
+      <Name>TaleWorlds.ModuleManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.GauntletUI\TaleWorlds.MountAndBlade.GauntletUI.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031F2}</Project>
+      <Name>TaleWorlds.MountAndBlade.GauntletUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.Multiplayer\TaleWorlds.MountAndBlade.Multiplayer.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031E9}</Project>
+      <Name>TaleWorlds.MountAndBlade.Multiplayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.ViewModelCollection\TaleWorlds.MountAndBlade.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031D7}</Project>
+      <Name>TaleWorlds.MountAndBlade.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.View\TaleWorlds.MountAndBlade.View.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031F4}</Project>
+      <Name>TaleWorlds.MountAndBlade.View</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade\TaleWorlds.MountAndBlade.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CD}</Project>
+      <Name>TaleWorlds.MountAndBlade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ObjectSystem\TaleWorlds.ObjectSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DA}</Project>
+      <Name>TaleWorlds.ObjectSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ScreenSystem\TaleWorlds.ScreenSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031E2}</Project>
+      <Name>TaleWorlds.ScreenSystem</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

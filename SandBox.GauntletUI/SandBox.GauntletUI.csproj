@@ -1,0 +1,198 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031F8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SandBox.GauntletUI</RootNamespace>
+    <AssemblyName>SandBox.GauntletUI</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="BannerEditor\BannerEditorView.cs" />
+    <Compile Include="BannerEditor\GauntletBannerEditorScreen.cs" />
+    <Compile Include="CharacterCreation\CharacterCreationBannerEditorView.cs" />
+    <Compile Include="CharacterCreation\CharacterCreationClanNamingStageView.cs" />
+    <Compile Include="CharacterCreation\CharacterCreationCultureStageView.cs" />
+    <Compile Include="CharacterCreation\CharacterCreationFaceGeneratorView.cs" />
+    <Compile Include="CharacterCreation\CharacterCreationNarrativeStageView.cs" />
+    <Compile Include="CharacterCreation\CharacterCreationOptionsStageView.cs" />
+    <Compile Include="CharacterCreation\CharacterCreationReviewStageView.cs" />
+    <Compile Include="Encyclopedia\EncyclopediaData.cs" />
+    <Compile Include="Encyclopedia\EncyclopediaListViewDataController.cs" />
+    <Compile Include="Encyclopedia\GauntletMapEncyclopediaView.cs" />
+    <Compile Include="GauntletBarberScreen.cs" />
+    <Compile Include="GauntletCampaignStartingOptionsView.cs" />
+    <Compile Include="GauntletCharacterDeveloperScreen.cs" />
+    <Compile Include="GauntletClanScreen.cs" />
+    <Compile Include="GauntletCraftingScreen.cs" />
+    <Compile Include="GauntletEducationScreen.cs" />
+    <Compile Include="GauntletGameOverScreen.cs" />
+    <Compile Include="GauntletInventoryScreen.cs" />
+    <Compile Include="GauntletKingdomScreen.cs" />
+    <Compile Include="GauntletPartyScreen.cs" />
+    <Compile Include="GauntletQuestsScreen.cs" />
+    <Compile Include="GauntletSaveLoadScreen.cs" />
+    <Compile Include="MapConversationTextureProvider.cs" />
+    <Compile Include="Map\GauntletHeirSelectionPopupView.cs" />
+    <Compile Include="Map\GauntletMapBarGlobalLayer.cs" />
+    <Compile Include="Map\GauntletMapBarView.cs" />
+    <Compile Include="Map\GauntletMapBasicView.cs" />
+    <Compile Include="Map\GauntletMapBattleSimulationView.cs" />
+    <Compile Include="Map\GauntletMapCampaignOptionsView.cs" />
+    <Compile Include="Map\GauntletMapCheatsView.cs" />
+    <Compile Include="Map\GauntletMapConversationBarterView.cs" />
+    <Compile Include="Map\GauntletMapConversationView.cs" />
+    <Compile Include="Map\GauntletMapEscapeMenuView.cs" />
+    <Compile Include="Map\GauntletMapEventVisual.cs" />
+    <Compile Include="Map\GauntletMapEventVisualCreator.cs" />
+    <Compile Include="Map\GauntletMapEventVisualsView.cs" />
+    <Compile Include="Map\GauntletMapIncidentView.cs" />
+    <Compile Include="Map\GauntletMapNotificationView.cs" />
+    <Compile Include="Map\GauntletMapOverlayView.cs" />
+    <Compile Include="Map\GauntletMapParleyAnimationView.cs" />
+    <Compile Include="Map\GauntletMapPartyNameplateView.cs" />
+    <Compile Include="Map\GauntletMapReadyView.cs" />
+    <Compile Include="Map\GauntletMapSaveView.cs" />
+    <Compile Include="Map\GauntletMapSettlementNameplateView.cs" />
+    <Compile Include="Map\GauntletMapSiegeOverlayView.cs" />
+    <Compile Include="Map\GauntletMapTrackersView.cs" />
+    <Compile Include="Map\GauntletMarriageOfferPopupView.cs" />
+    <Compile Include="Map\IGauntletMapEventVisualHandler.cs" />
+    <Compile Include="Menu\GauntletMenuBackground.cs" />
+    <Compile Include="Menu\GauntletMenuBaseView.cs" />
+    <Compile Include="Menu\GauntletMenuOverlayBaseView.cs" />
+    <Compile Include="Menu\GauntletMenuRecruitVolunteersView.cs" />
+    <Compile Include="Menu\GauntletMenuTournamentLeaderboardView.cs" />
+    <Compile Include="Menu\GauntletMenuTownManagementView.cs" />
+    <Compile Include="Menu\GauntletMenuTroopSelectionView.cs" />
+    <Compile Include="Microsoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Missions\MissionGauntletAgentAlarmStateView.cs" />
+    <Compile Include="Missions\MissionGauntletArenaPracticeFightView.cs" />
+    <Compile Include="Missions\MissionGauntletBarterView.cs" />
+    <Compile Include="Missions\MissionGauntletBoardGameView.cs" />
+    <Compile Include="Missions\MissionGauntletCheatView.cs" />
+    <Compile Include="Missions\MissionGauntletConversationView.cs" />
+    <Compile Include="Missions\MissionGauntletEavesdroppingCameraView.cs" />
+    <Compile Include="Missions\MissionGauntletHideoutAmbushCinematicView.cs" />
+    <Compile Include="Missions\MissionGauntletNameMarkerView.cs" />
+    <Compile Include="Missions\MissionGauntletQuestBarView.cs" />
+    <Compile Include="Missions\MissionGauntletStealthFailCounterView.cs" />
+    <Compile Include="Missions\MissionGauntletTournamentView.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SandBoxGauntletGameNotification.cs" />
+    <Compile Include="SandBoxGauntletUISubModule.cs" />
+    <Compile Include="SandboxSceneNotificationContextProvider.cs" />
+    <Compile Include="Sandobx\GauntletUI\Missions\GauntletMainAgentDetectionView.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IsReadOnlyAttribute.cs" />
+    <Compile Include="Tutorial\GauntletTutorialSystem.cs" />
+    <Compile Include="Tutorial\TutorialAttribute.cs" />
+    <Compile Include="Tutorial\TutorialHelper.cs" />
+    <Compile Include="Tutorial\TutorialItemBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\netstandard\netstandard.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A8}</Project>
+      <Name>netstandard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SandBox.ViewModelCollection\SandBox.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031FA}</Project>
+      <Name>SandBox.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SandBox.View\SandBox.View.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031F9}</Project>
+      <Name>SandBox.View</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SandBox\SandBox.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031F5}</Project>
+      <Name>SandBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.CampaignSystem.ViewModelCollection\TaleWorlds.CampaignSystem.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B4}</Project>
+      <Name>TaleWorlds.CampaignSystem.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.CampaignSystem\TaleWorlds.CampaignSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B3}</Project>
+      <Name>TaleWorlds.CampaignSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core.ViewModelCollection\TaleWorlds.Core.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B6}</Project>
+      <Name>TaleWorlds.Core.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core\TaleWorlds.Core.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B5}</Project>
+      <Name>TaleWorlds.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.DotNet\TaleWorlds.DotNet.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031BD}</Project>
+      <Name>TaleWorlds.DotNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Engine.GauntletUI\TaleWorlds.Engine.GauntletUI.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C0}</Project>
+      <Name>TaleWorlds.Engine.GauntletUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Engine\TaleWorlds.Engine.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031BF}</Project>
+      <Name>TaleWorlds.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.GauntletUI\TaleWorlds.GauntletUI.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C3}</Project>
+      <Name>TaleWorlds.GauntletUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.InputSystem\TaleWorlds.InputSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C6}</Project>
+      <Name>TaleWorlds.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Library\TaleWorlds.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C7}</Project>
+      <Name>TaleWorlds.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.LinQuick\TaleWorlds.LinQuick.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C8}</Project>
+      <Name>TaleWorlds.LinQuick</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Localization\TaleWorlds.Localization.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C9}</Project>
+      <Name>TaleWorlds.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ModuleManager\TaleWorlds.ModuleManager.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CA}</Project>
+      <Name>TaleWorlds.ModuleManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.GauntletUI\TaleWorlds.MountAndBlade.GauntletUI.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031F2}</Project>
+      <Name>TaleWorlds.MountAndBlade.GauntletUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.ViewModelCollection\TaleWorlds.MountAndBlade.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031D7}</Project>
+      <Name>TaleWorlds.MountAndBlade.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.View\TaleWorlds.MountAndBlade.View.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031F4}</Project>
+      <Name>TaleWorlds.MountAndBlade.View</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade\TaleWorlds.MountAndBlade.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CD}</Project>
+      <Name>TaleWorlds.MountAndBlade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ObjectSystem\TaleWorlds.ObjectSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DA}</Project>
+      <Name>TaleWorlds.ObjectSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ScreenSystem\TaleWorlds.ScreenSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031E2}</Project>
+      <Name>TaleWorlds.ScreenSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.TwoDimension\TaleWorlds.TwoDimension.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031E5}</Project>
+      <Name>TaleWorlds.TwoDimension</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

@@ -1,0 +1,256 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TaleWorlds.MountAndBlade.View</RootNamespace>
+    <AssemblyName>TaleWorlds.MountAndBlade.View</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="Microsoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IsReadOnlyAttribute.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\ViewModelCollection\Order\Visual\Default\Orders\FormOrders\ArrangementVisualOrder.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\ViewModelCollection\Order\Visual\Default\Orders\MovementOrders\AdvanceVisualOrder.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\ViewModelCollection\Order\Visual\Default\Orders\MovementOrders\ChargeVisualOrder.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\ViewModelCollection\Order\Visual\Default\Orders\MovementOrders\FallbackVisualOrder.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\ViewModelCollection\Order\Visual\Default\Orders\MovementOrders\FollowMeVisualOrder.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\ViewModelCollection\Order\Visual\Default\Orders\MovementOrders\MoveVisualOrder.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\ViewModelCollection\Order\Visual\Default\Orders\MovementOrders\RetreatVisualOrder.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\ViewModelCollection\Order\Visual\Default\Orders\MovementOrders\StopVisualOrder.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\ViewModelCollection\Order\Visual\Default\Orders\ToggleOrders\GenericToggleVisualOrder.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\AgentVisuals.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\AgentVisualsCreator.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\BannerVisual.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\BannerVisualCreator.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\BannerVisualExtensions.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\ConversationTagView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\CraftedDataView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\CraftedDataViewManager.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\CraftingPieceCollectionElementViewExtensions.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\CustomBattle\CustomBattleFactory.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\CustomBattle\ICustomBattleProvider.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\DefaultView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\DLCInstallationQueryView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\IChatLogHandlerScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\ItemCollectionElementViewExtensions.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\ItemObjectViewExtensions.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\ItemVisualizer.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionPlayerToggledOrderViewEvent.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionAgentContourControllerView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionAgentLabelView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionAgentStatusUIHandler.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionBattleUIBaseView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionBoundaryCrossingView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionBoundaryWallView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionCheatView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionCrosshair.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionEscapeMenuView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionFaceCacheView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionFormationTargetSelectionHandler.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionGamepadEffectsView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionHintView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionItemContourControllerView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionMainAgentCheerBarkControllerView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionMainAgentController.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionMainAgentControlModeView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionMainAgentEquipDropView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionMainAgentEquipmentControllerView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionMainAgentInteractionComponent.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionObjectiveView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionOptionsUIHandler.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionPlayerMovementFlagsChangeEvent.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\MissionViewsContainer.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Order\OrderFlag.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Order\OrderTroopPlacer.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\ReplayCaptureLogic.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\ReplayMissionView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\SiegeWeapon\BallistaView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\SiegeWeapon\BricoleView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\SiegeWeapon\MangonelView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\SiegeWeapon\RangedSiegeWeaponView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\SiegeWeapon\RangedSiegeWeaponViewController.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\SiegeWeapon\TrebuchetView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\BarterView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\BoardGameView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\DeploymentMissionView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\DeploymentView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\FaceGeneratorMissionView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\FormationIndicatorMissionView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionAgentLockVisualizerView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionBattleScoreUIHandler.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionConversationView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionCustomBattlePreloadView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionDeploymentBoundaryMarker.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionFormationMarkerUIHandler.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionLeaveView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionMessageUIHandler.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionOrderOfBattleUIHandler.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionOrderUIHandler.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionScoreUIHandler.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionSiegeEngineMarkerView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionSingleplayerEscapeMenu.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionSingleplayerKillNotificationUIHandler.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\MissionSpectatorControlView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\OnPlayerDeploymentFinishDelegate.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\PhotoModeView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\SiegeDeploymentVisualizationMissionView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Singleplayer\TutorialMissionViews.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Sound\MusicBattleMissionView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Sound\MusicSilencedMissionView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\Sound\MusicStealthMissionView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MissionViews\SpectatorCameraView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MountVisualCreationOutput.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\MountVisualCreator.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\OverrideView.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\PopupSceneEmissionHandler.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\PopupSceneSkeletonAnimationScript.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\PopupSceneSpawnPoint.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\PreloadHelper.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\SceneNotification\PopupSceneBanner.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\SceneNotification\PopupSceneShipSpawnPoint.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\BannerBuilderScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\BenchmarkScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\CreditsScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\FaceGeneratorScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\GameLoadingScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\GameStateScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\GameStateScreenManager.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\IFaceGeneratorScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\MissionScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\OptionsScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\SceneEditorLayer.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\SceneEditorScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\Scripts\MultiThreadedStressTestsScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\VideoPlaybackScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Screens\VisualTestsScreen.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Scripts\CharacterDebugSpawner.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Scripts\CharacterSpawner.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Scripts\HandMorphTest.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Scripts\HandPose.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Scripts\MapColorGradeManager.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Scripts\PopupSceneCameraPath.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Scripts\PopupSceneSequence.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Scripts\PopupSceneSwitchCameraSequence.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Scripts\PopupSceneSwitchItemSequence.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\SimpleSceneTestWithMission.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\BannerTableau.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\BannerTextureCreator.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\BannerThumbnailCreationBaseData.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\BasicCharacterTableau.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\BrightnessDemoTableau.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\CharacterTableau.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\ItemTableau.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\RenderCallbackCollection.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\SceneTableau.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\ThumbnailCacheManager.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\ThumbnailDebugUtility.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\AvatarThumbnailCache.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\AvatarThumbnailCreationData.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\BannerDebugInfo.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\BannerEditorTextureCache.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\BannerEditorTextureCreationData.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\BannerPersistentTextureCache.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\BannerTextureCreationData.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\BannerThumbnailCache.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\BannerThumbnailCreationData.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\CharacterThumbnailCache.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\CharacterThumbnailCreationData.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\CraftingPieceCreationData.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\CraftingPieceThumbnailCache.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\ItemThumbnailCache.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\ItemThumbnailCreationData.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\IThumbnailCache.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\NodeComparer.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\TextureCreationInfo.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\ThumbnailCache.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\ThumbnailCacheNode.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\Tableaus\Thumbnails\ThumbnailCreationData.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\UISoundsHelper.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\ViewCreator.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\ViewCreatorManager.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\ViewSubModule.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\VisualOrders\DefaultVisualOrderProvider.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\VisualOrders\OrderSets\GenericVisualOrderSet.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\VisualOrders\OrderSets\SingleVisualOrderSet.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\VisualOrders\Orders\SingleVisualOrder.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\VisualOrders\Orders\ToggleOrders\ToggleFacingVisualOrder.cs" />
+    <Compile Include="TaleWorlds\MountAndBlade\View\WeaponComponentViewExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\netstandard\netstandard.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A8}</Project>
+      <Name>netstandard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core.ViewModelCollection\TaleWorlds.Core.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B6}</Project>
+      <Name>TaleWorlds.Core.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core\TaleWorlds.Core.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B5}</Project>
+      <Name>TaleWorlds.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.DotNet\TaleWorlds.DotNet.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031BD}</Project>
+      <Name>TaleWorlds.DotNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Engine\TaleWorlds.Engine.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031BF}</Project>
+      <Name>TaleWorlds.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.InputSystem\TaleWorlds.InputSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C6}</Project>
+      <Name>TaleWorlds.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Library\TaleWorlds.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C7}</Project>
+      <Name>TaleWorlds.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.LinQuick\TaleWorlds.LinQuick.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C8}</Project>
+      <Name>TaleWorlds.LinQuick</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Localization\TaleWorlds.Localization.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C9}</Project>
+      <Name>TaleWorlds.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ModuleManager\TaleWorlds.ModuleManager.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CA}</Project>
+      <Name>TaleWorlds.ModuleManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.ViewModelCollection\TaleWorlds.MountAndBlade.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031D7}</Project>
+      <Name>TaleWorlds.MountAndBlade.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade\TaleWorlds.MountAndBlade.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CD}</Project>
+      <Name>TaleWorlds.MountAndBlade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ObjectSystem\TaleWorlds.ObjectSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DA}</Project>
+      <Name>TaleWorlds.ObjectSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.PlayerServices\TaleWorlds.PlayerServices.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DF}</Project>
+      <Name>TaleWorlds.PlayerServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.PSAI\TaleWorlds.PSAI.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031E0}</Project>
+      <Name>TaleWorlds.PSAI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ScreenSystem\TaleWorlds.ScreenSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031E2}</Project>
+      <Name>TaleWorlds.ScreenSystem</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

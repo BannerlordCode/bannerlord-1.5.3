@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ManagedStarter</RootNamespace>
+    <AssemblyName>ManagedStarter</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>net472</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ManagedStarter.ico</ApplicationIcon>
+    <StartupObject>ManagedStarter.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mscorlib\mscorlib.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A7}</Project>
+      <Name>mscorlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Starter.Library\TaleWorlds.Starter.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031E4}</Project>
+      <Name>TaleWorlds.Starter.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

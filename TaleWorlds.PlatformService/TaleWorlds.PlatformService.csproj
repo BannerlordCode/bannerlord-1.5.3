@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031DB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TaleWorlds.PlatformService</RootNamespace>
+    <AssemblyName>TaleWorlds.PlatformService</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="FriendListService.cs" />
+    <Compile Include="FriendListServiceType.cs" />
+    <Compile Include="IFriendListService.cs" />
+    <Compile Include="IPlatformInvitationServices.cs" />
+    <Compile Include="IPlatformServices.cs" />
+    <Compile Include="ISessionService.cs" />
+    <Compile Include="NullPlatformServices.cs" />
+    <Compile Include="Permission.cs" />
+    <Compile Include="PermissionChanged.cs" />
+    <Compile Include="PermissionResult.cs" />
+    <Compile Include="PermissionResults.cs" />
+    <Compile Include="PlatformInviteResponse.cs" />
+    <Compile Include="PlatformServices.cs" />
+    <Compile Include="Privilege.cs" />
+    <Compile Include="PrivilegeResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionInvitationType.cs" />
+    <Compile Include="TestFriendListService.cs" />
+    <Compile Include="TestPlatformServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\netstandard\netstandard.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A8}</Project>
+      <Name>netstandard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.AchievementSystem\TaleWorlds.AchievementSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B1}</Project>
+      <Name>TaleWorlds.AchievementSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ActivitySystem\TaleWorlds.ActivitySystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B2}</Project>
+      <Name>TaleWorlds.ActivitySystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Diamond.AccessProvider.Test\TaleWorlds.Diamond.AccessProvider.Test.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031BA}</Project>
+      <Name>TaleWorlds.Diamond.AccessProvider.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Diamond\TaleWorlds.Diamond.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031BB}</Project>
+      <Name>TaleWorlds.Diamond</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Library\TaleWorlds.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C7}</Project>
+      <Name>TaleWorlds.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Localization\TaleWorlds.Localization.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C9}</Project>
+      <Name>TaleWorlds.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.PlayerServices\TaleWorlds.PlayerServices.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DF}</Project>
+      <Name>TaleWorlds.PlayerServices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

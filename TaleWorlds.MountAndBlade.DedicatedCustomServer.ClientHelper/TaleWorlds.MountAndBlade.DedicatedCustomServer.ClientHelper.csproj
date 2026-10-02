@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TaleWorlds.MountAndBlade.DedicatedCustomServer.ClientHelper</RootNamespace>
+    <AssemblyName>TaleWorlds.MountAndBlade.DedicatedCustomServer.ClientHelper</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="DCSHelperMapItemVM.cs" />
+    <Compile Include="DCSHelperVM.cs" />
+    <Compile Include="DedicatedCustomServerClientHelperSubModule.cs" />
+    <Compile Include="ModHelpers.cs" />
+    <Compile Include="ModLogger.cs" />
+    <Compile Include="ProgressUpdate.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\netstandard\netstandard.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A8}</Project>
+      <Name>netstandard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Newtonsoft.Json\Newtonsoft.Json.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031AC}</Project>
+      <Name>Newtonsoft.Json</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core.ViewModelCollection\TaleWorlds.Core.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B6}</Project>
+      <Name>TaleWorlds.Core.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core\TaleWorlds.Core.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B5}</Project>
+      <Name>TaleWorlds.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Engine.GauntletUI\TaleWorlds.Engine.GauntletUI.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C0}</Project>
+      <Name>TaleWorlds.Engine.GauntletUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Engine\TaleWorlds.Engine.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031BF}</Project>
+      <Name>TaleWorlds.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Library\TaleWorlds.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C7}</Project>
+      <Name>TaleWorlds.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Localization\TaleWorlds.Localization.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C9}</Project>
+      <Name>TaleWorlds.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ModuleManager\TaleWorlds.ModuleManager.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CA}</Project>
+      <Name>TaleWorlds.ModuleManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.Diamond\TaleWorlds.MountAndBlade.Diamond.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CC}</Project>
+      <Name>TaleWorlds.MountAndBlade.Diamond</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.Multiplayer.GauntletUI\TaleWorlds.MountAndBlade.Multiplayer.GauntletUI.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031ED}</Project>
+      <Name>TaleWorlds.MountAndBlade.Multiplayer.GauntletUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.Multiplayer\TaleWorlds.MountAndBlade.Multiplayer.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031E9}</Project>
+      <Name>TaleWorlds.MountAndBlade.Multiplayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade\TaleWorlds.MountAndBlade.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CD}</Project>
+      <Name>TaleWorlds.MountAndBlade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ScreenSystem\TaleWorlds.ScreenSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031E2}</Project>
+      <Name>TaleWorlds.ScreenSystem</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031D5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TaleWorlds.MountAndBlade.SaveSystem.CodeGenerator</RootNamespace>
+    <AssemblyName>TaleWorlds.MountAndBlade.SaveSystem.CodeGenerator</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>net472</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>TaleWorlds.MountAndBlade.SaveSystem.CodeGenerator.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mscorlib\mscorlib.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A7}</Project>
+      <Name>mscorlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SandBox\SandBox.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031F5}</Project>
+      <Name>SandBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StoryMode\StoryMode.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031FB}</Project>
+      <Name>StoryMode</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.CampaignSystem\TaleWorlds.CampaignSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B3}</Project>
+      <Name>TaleWorlds.CampaignSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core\TaleWorlds.Core.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B5}</Project>
+      <Name>TaleWorlds.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Library\TaleWorlds.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C7}</Project>
+      <Name>TaleWorlds.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Localization\TaleWorlds.Localization.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C9}</Project>
+      <Name>TaleWorlds.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade\TaleWorlds.MountAndBlade.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CD}</Project>
+      <Name>TaleWorlds.MountAndBlade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ObjectSystem\TaleWorlds.ObjectSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DA}</Project>
+      <Name>TaleWorlds.ObjectSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.SaveSystem\TaleWorlds.SaveSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031E1}</Project>
+      <Name>TaleWorlds.SaveSystem</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

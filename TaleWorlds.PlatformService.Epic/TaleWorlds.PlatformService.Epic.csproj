@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TaleWorlds.PlatformService.Epic</RootNamespace>
+    <AssemblyName>TaleWorlds.PlatformService.Epic</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="EpicAchievementService.cs" />
+    <Compile Include="EpicFriendListService.cs" />
+    <Compile Include="EpicPlatformAvatarService.cs" />
+    <Compile Include="EpicPlatformServices.cs" />
+    <Compile Include="EpicThirdPartyFriendListService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\netstandard\netstandard.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A8}</Project>
+      <Name>netstandard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Newtonsoft.Json\Newtonsoft.Json.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031AC}</Project>
+      <Name>Newtonsoft.Json</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.AchievementSystem\TaleWorlds.AchievementSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B1}</Project>
+      <Name>TaleWorlds.AchievementSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ActivitySystem\TaleWorlds.ActivitySystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B2}</Project>
+      <Name>TaleWorlds.ActivitySystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Diamond\TaleWorlds.Diamond.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031BB}</Project>
+      <Name>TaleWorlds.Diamond</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Library\TaleWorlds.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C7}</Project>
+      <Name>TaleWorlds.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Localization\TaleWorlds.Localization.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C9}</Project>
+      <Name>TaleWorlds.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.PlatformService\TaleWorlds.PlatformService.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DB}</Project>
+      <Name>TaleWorlds.PlatformService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.PlayerServices\TaleWorlds.PlayerServices.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DF}</Project>
+      <Name>TaleWorlds.PlayerServices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Epic.OnlineServices" />
+    <Reference Include="TaleWorlds.Diamond.AccessProvider.Epic" />
+  </ItemGroup>
+</Project>

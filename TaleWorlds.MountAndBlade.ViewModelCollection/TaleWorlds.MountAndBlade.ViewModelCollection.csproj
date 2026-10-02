@@ -1,0 +1,215 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TaleWorlds.MountAndBlade.ViewModelCollection</RootNamespace>
+    <AssemblyName>TaleWorlds.MountAndBlade.ViewModelCollection</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="BannerBuilder\BannerBuilderCategoryVM.cs" />
+    <Compile Include="BannerBuilder\BannerBuilderColorItemVM.cs" />
+    <Compile Include="BannerBuilder\BannerBuilderColorSelectionVM.cs" />
+    <Compile Include="BannerBuilder\BannerBuilderItemVM.cs" />
+    <Compile Include="BannerBuilder\BannerBuilderLayerVM.cs" />
+    <Compile Include="BannerBuilder\BannerBuilderVM.cs" />
+    <Compile Include="BoundaryCrossingVM.cs" />
+    <Compile Include="Credits\CreditsItemVM.cs" />
+    <Compile Include="Credits\CreditsVM.cs" />
+    <Compile Include="EscapeMenu\EscapeMenuItemVM.cs" />
+    <Compile Include="EscapeMenu\EscapeMenuVM.cs" />
+    <Compile Include="EscapeMenu\GameTipsVM.cs" />
+    <Compile Include="FaceGenerator\FacegenListItemVM.cs" />
+    <Compile Include="FaceGenerator\FaceGenPropertyVM.cs" />
+    <Compile Include="FaceGenerator\FaceGenVM.cs" />
+    <Compile Include="FullScreenNoticeVM.cs" />
+    <Compile Include="GameOptions\ActionOptionDataVM.cs" />
+    <Compile Include="GameOptions\AuxiliaryKeys\AuxiliaryKeyGroupVM.cs" />
+    <Compile Include="GameOptions\AuxiliaryKeys\AuxiliaryKeyOptionVM.cs" />
+    <Compile Include="GameOptions\BooleanOptionDataVM.cs" />
+    <Compile Include="GameOptions\BrightnessOptionVM.cs" />
+    <Compile Include="GameOptions\ExposureOptionVM.cs" />
+    <Compile Include="GameOptions\GameKeys\GameKeyGroupVM.cs" />
+    <Compile Include="GameOptions\GameKeys\GameKeyOptionCategoryVM.cs" />
+    <Compile Include="GameOptions\GameKeys\GameKeyOptionVM.cs" />
+    <Compile Include="GameOptions\GamepadOptions\GamepadOptionCategoryVM.cs" />
+    <Compile Include="GameOptions\GamepadOptions\GamepadOptionKeyItemVM.cs" />
+    <Compile Include="GameOptions\GenericOptionDataVM.cs" />
+    <Compile Include="GameOptions\GroupedOptionCategoryVM.cs" />
+    <Compile Include="GameOptions\KeyOptionVM.cs" />
+    <Compile Include="GameOptions\MPOptionsVM.cs" />
+    <Compile Include="GameOptions\NumericOptionDataVM.cs" />
+    <Compile Include="GameOptions\OptionGroupVM.cs" />
+    <Compile Include="GameOptions\OptionsVM.cs" />
+    <Compile Include="GameOptions\StringOptionDataVM.cs" />
+    <Compile Include="GameVersionVM.cs" />
+    <Compile Include="HUD\CheerBarkNodeItemVM.cs" />
+    <Compile Include="HUD\Compass\CompassMarkerVM.cs" />
+    <Compile Include="HUD\Compass\CompassTargetVM.cs" />
+    <Compile Include="HUD\ControllerEquippedItemVM.cs" />
+    <Compile Include="HUD\CrosshairVM.cs" />
+    <Compile Include="HUD\DamageFeed\MissionAgentDamageFeedItemVM.cs" />
+    <Compile Include="HUD\DamageFeed\MissionAgentDamageFeedVM.cs" />
+    <Compile Include="HUD\EquipmentActionItemVM.cs" />
+    <Compile Include="HUD\FormationMarker\MissionFormationMarkerTargetVM.cs" />
+    <Compile Include="HUD\FormationMarker\MissionFormationMarkerVM.cs" />
+    <Compile Include="HUD\FormationMarker\MissionSiegeEngineMarkerTargetVM.cs" />
+    <Compile Include="HUD\FormationMarker\MissionSiegeEngineMarkerVM.cs" />
+    <Compile Include="HUD\KillFeed\General\SPGeneralKillNotificationItemVM.cs" />
+    <Compile Include="HUD\KillFeed\General\SPGeneralKillNotificationVM.cs" />
+    <Compile Include="HUD\KillFeed\Personal\SPPersonalKillNotificationItemVM.cs" />
+    <Compile Include="HUD\KillFeed\Personal\SPPersonalKillNotificationVM.cs" />
+    <Compile Include="HUD\KillFeed\SPKillFeedVM.cs" />
+    <Compile Include="HUD\MissionAgentLockItemVM.cs" />
+    <Compile Include="HUD\MissionAgentLockVisualizerVM.cs" />
+    <Compile Include="HUD\MissionAgentTakenDamageItemVM.cs" />
+    <Compile Include="HUD\MissionAgentTakenDamageVM.cs" />
+    <Compile Include="HUD\MissionMainAgentCheerBarkControllerVM.cs" />
+    <Compile Include="HUD\MissionMainAgentControllerEquipDropVM.cs" />
+    <Compile Include="HUD\MissionMainAgentEquipmentControllerVM.cs" />
+    <Compile Include="HUD\MissionSpectatorControlVM.cs" />
+    <Compile Include="HUD\ReloadPhaseItemVM.cs" />
+    <Compile Include="HUD\WalkMode\MissionMainAgentWalkModeControllerVM.cs" />
+    <Compile Include="HUD\WalkMode\WalkModeItemVM.cs" />
+    <Compile Include="IMissionScreen.cs" />
+    <Compile Include="InitialMenu\InitialMenuAnnouncementVM.cs" />
+    <Compile Include="InitialMenu\InitialMenuOptionVM.cs" />
+    <Compile Include="InitialMenu\InitialMenuVM.cs" />
+    <Compile Include="Input\InputKeyItemVM.cs" />
+    <Compile Include="Inquiries\MultiSelectionQueryPopUpVM.cs" />
+    <Compile Include="Inquiries\PopUpBaseVM.cs" />
+    <Compile Include="Inquiries\SingleQueryPopUpVM.cs" />
+    <Compile Include="Inquiries\TextQueryPopUpVM.cs" />
+    <Compile Include="Microsoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="MissionAgentStatusVM.cs" />
+    <Compile Include="MissionLeaveVM.cs" />
+    <Compile Include="Missions\Interaction\AgentInteractionInterfaceVM.cs" />
+    <Compile Include="Missions\Interaction\IInteractionInterfaceHandler.cs" />
+    <Compile Include="Missions\Interaction\InteractionItems\MissionGenericInteractionItemVM.cs" />
+    <Compile Include="Missions\Interaction\InteractionItems\MissionHintInteractionItemVM.cs" />
+    <Compile Include="Missions\Interaction\InteractionItems\MissionInteractionItemBaseVM.cs" />
+    <Compile Include="Missions\Interaction\InteractionItems\MissionPrimaryInteractionItemVM.cs" />
+    <Compile Include="Missions\Objective\MissionObjectiveMarkersVM.cs" />
+    <Compile Include="Missions\Objective\MissionObjectiveMarkerVM.cs" />
+    <Compile Include="Missions\Objective\MissionObjectiveVM.cs" />
+    <Compile Include="Multiplayer\MPChatLineVM.cs" />
+    <Compile Include="Multiplayer\MPChatVM.cs" />
+    <Compile Include="OrderOfBattle\OrderOfBattleFormationClassChangedEvent.cs" />
+    <Compile Include="OrderOfBattle\OrderOfBattleFormationClassSelectorItemVM.cs" />
+    <Compile Include="OrderOfBattle\OrderOfBattleFormationClassVM.cs" />
+    <Compile Include="OrderOfBattle\OrderOfBattleFormationFilterSelectorItemComparer.cs" />
+    <Compile Include="OrderOfBattle\OrderOfBattleFormationFilterSelectorItemVM.cs" />
+    <Compile Include="OrderOfBattle\OrderOfBattleFormationItemVM.cs" />
+    <Compile Include="OrderOfBattle\OrderOfBattleFormationWeightChangedEvent.cs" />
+    <Compile Include="OrderOfBattle\OrderOfBattleHeroAssignedToFormationEvent.cs" />
+    <Compile Include="OrderOfBattle\OrderOfBattleHeroItemVM.cs" />
+    <Compile Include="OrderOfBattle\OrderOfBattleUIHelper.cs" />
+    <Compile Include="OrderOfBattle\OrderOfBattleVM.cs" />
+    <Compile Include="OrderOfBattle\SiegeDeploymentVM.cs" />
+    <Compile Include="Order\DeploymentSiegeMachineVM.cs" />
+    <Compile Include="Order\MissionOrderCallbacks.cs" />
+    <Compile Include="Order\MissionOrderDeploymentControllerVM.cs" />
+    <Compile Include="Order\MissionOrderTroopControllerVM.cs" />
+    <Compile Include="Order\MissionOrderVM.cs" />
+    <Compile Include="Order\OrderItemBaseVM.cs" />
+    <Compile Include="Order\OrderItemVM.cs" />
+    <Compile Include="Order\OrderSetVM.cs" />
+    <Compile Include="Order\OrderSubjectVM.cs" />
+    <Compile Include="Order\OrderTroopItemFilterVM.cs" />
+    <Compile Include="Order\OrderTroopItemFormationClassVM.cs" />
+    <Compile Include="Order\OrderTroopItemVM.cs" />
+    <Compile Include="Order\Visual\ActionVisualOrder.cs" />
+    <Compile Include="Order\Visual\OrderState.cs" />
+    <Compile Include="Order\Visual\ReturnVisualOrder.cs" />
+    <Compile Include="Order\Visual\TransferTroopsVisualOrder.cs" />
+    <Compile Include="Order\Visual\VisualOrder.cs" />
+    <Compile Include="Order\Visual\VisualOrderExecutionParameters.cs" />
+    <Compile Include="Order\Visual\VisualOrderFactory.cs" />
+    <Compile Include="Order\Visual\VisualOrderHelper.cs" />
+    <Compile Include="Order\Visual\VisualOrderProvider.cs" />
+    <Compile Include="Order\Visual\VisualOrderSet.cs" />
+    <Compile Include="PhotoModeValueOptionVM.cs" />
+    <Compile Include="PhotoModeVM.cs" />
+    <Compile Include="ProfileSelection\ProfileSelectionVM.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scoreboard\CustomBattleScoreboardVM.cs" />
+    <Compile Include="Scoreboard\ScoreboardBaseVM.cs" />
+    <Compile Include="Scoreboard\ScoreboardHotkeys.cs" />
+    <Compile Include="Scoreboard\SPScoreboardPartyVM.cs" />
+    <Compile Include="Scoreboard\SPScoreboardShipVM.cs" />
+    <Compile Include="Scoreboard\SPScoreboardSideVM.cs" />
+    <Compile Include="Scoreboard\SPScoreboardSkillItemVM.cs" />
+    <Compile Include="Scoreboard\SPScoreboardSortControllerVM.cs" />
+    <Compile Include="Scoreboard\SPScoreboardStatsVM.cs" />
+    <Compile Include="Scoreboard\SPScoreboardUnitVM.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IsReadOnlyAttribute.cs" />
+    <Compile Include="VideoPlayback\VideoPlaybackVM.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\netstandard\netstandard.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A8}</Project>
+      <Name>netstandard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core.ViewModelCollection\TaleWorlds.Core.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B6}</Project>
+      <Name>TaleWorlds.Core.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core\TaleWorlds.Core.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B5}</Project>
+      <Name>TaleWorlds.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Engine\TaleWorlds.Engine.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031BF}</Project>
+      <Name>TaleWorlds.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.InputSystem\TaleWorlds.InputSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C6}</Project>
+      <Name>TaleWorlds.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Library\TaleWorlds.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C7}</Project>
+      <Name>TaleWorlds.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.LinQuick\TaleWorlds.LinQuick.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C8}</Project>
+      <Name>TaleWorlds.LinQuick</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Localization\TaleWorlds.Localization.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C9}</Project>
+      <Name>TaleWorlds.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ModuleManager\TaleWorlds.ModuleManager.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CA}</Project>
+      <Name>TaleWorlds.ModuleManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.Diamond\TaleWorlds.MountAndBlade.Diamond.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CC}</Project>
+      <Name>TaleWorlds.MountAndBlade.Diamond</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade\TaleWorlds.MountAndBlade.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CD}</Project>
+      <Name>TaleWorlds.MountAndBlade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ObjectSystem\TaleWorlds.ObjectSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DA}</Project>
+      <Name>TaleWorlds.ObjectSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.PlatformService\TaleWorlds.PlatformService.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031DB}</Project>
+      <Name>TaleWorlds.PlatformService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.ScreenSystem\TaleWorlds.ScreenSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031E2}</Project>
+      <Name>TaleWorlds.ScreenSystem</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

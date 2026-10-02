@@ -1,0 +1,12 @@
+# Normalize line endings: store LF in repo, checkout as-is per platform
+* text=auto
+
+# Ensure C# project/solution files are treated as text
+*.cs      text
+*.csproj  text
+*.sln     text eol=crlf
+*.resx    text
+
+# Binaries
+*.ico     binary
+*.nlp     binary

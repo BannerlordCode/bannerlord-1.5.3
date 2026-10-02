@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{C115D43D-5EC5-4848-9A02-B775BDD031CE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TaleWorlds.MountAndBlade.GauntletUI.CodeGenerator</RootNamespace>
+    <AssemblyName>TaleWorlds.MountAndBlade.GauntletUI.CodeGenerator</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>net472</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStdLib>True</NoStdLib>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>TaleWorlds.MountAndBlade.GauntletUI.CodeGenerator.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mscorlib\mscorlib.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031A7}</Project>
+      <Name>mscorlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SandBox.ViewModelCollection\SandBox.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031FA}</Project>
+      <Name>SandBox.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StoryMode.ViewModelCollection\StoryMode.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031FF}</Project>
+      <Name>StoryMode.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.CampaignSystem.ViewModelCollection\TaleWorlds.CampaignSystem.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B4}</Project>
+      <Name>TaleWorlds.CampaignSystem.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Core.ViewModelCollection\TaleWorlds.Core.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031B6}</Project>
+      <Name>TaleWorlds.Core.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.GauntletUI.CodeGenerator\TaleWorlds.GauntletUI.CodeGenerator.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C1}</Project>
+      <Name>TaleWorlds.GauntletUI.CodeGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.GauntletUI.Data\TaleWorlds.GauntletUI.Data.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C2}</Project>
+      <Name>TaleWorlds.GauntletUI.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.GauntletUI.ExtraWidgets\TaleWorlds.GauntletUI.ExtraWidgets.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C4}</Project>
+      <Name>TaleWorlds.GauntletUI.ExtraWidgets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.GauntletUI.PrefabSystem\TaleWorlds.GauntletUI.PrefabSystem.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C5}</Project>
+      <Name>TaleWorlds.GauntletUI.PrefabSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.GauntletUI\TaleWorlds.GauntletUI.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C3}</Project>
+      <Name>TaleWorlds.GauntletUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.Library\TaleWorlds.Library.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031C7}</Project>
+      <Name>TaleWorlds.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.GauntletUI.Widgets\TaleWorlds.MountAndBlade.GauntletUI.Widgets.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031CF}</Project>
+      <Name>TaleWorlds.MountAndBlade.GauntletUI.Widgets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.Multiplayer.ViewModelCollection\TaleWorlds.MountAndBlade.Multiplayer.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031EF}</Project>
+      <Name>TaleWorlds.MountAndBlade.Multiplayer.ViewModelCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaleWorlds.MountAndBlade.ViewModelCollection\TaleWorlds.MountAndBlade.ViewModelCollection.csproj">
+      <Project>{C115D43D-5EC5-4848-9A02-B775BDD031D7}</Project>
+      <Name>TaleWorlds.MountAndBlade.ViewModelCollection</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="NavalDLC.GauntletUI.Widgets" />
+    <Reference Include="NavalDLC.ViewModelCollection" />
+  </ItemGroup>
+</Project>
